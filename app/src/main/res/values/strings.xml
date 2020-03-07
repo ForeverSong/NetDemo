@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">NetDemo</string>
+    <string name="app_name">成三棋</string>
+    <string name="button_restart">重新开始</string>
 </resources>

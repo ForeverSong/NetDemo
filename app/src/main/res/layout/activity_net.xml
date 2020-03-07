@@ -2,8 +2,21 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/white_boat"
     android:gravity="center"
     android:orientation="vertical">
+
+    <!--https://blog.csdn.net/yijiaodingqiankun/article/details/83306957-->
+    <!--        android:track="@drawable/my_track"-->
+    <!--        android:thumb="@drawable/my_thumb"-->
+    <Switch
+        android:id="@+id/switch_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:switchMinWidth="50dp"
+        android:text="不许被发现"
+        android:textSize="30sp" />
+
 
     <Button
         android:id="@+id/btn_server"
@@ -18,5 +31,6 @@
         android:layout_height="wrap_content"
         android:text="客户端"
         android:textSize="30sp" />
+
 
 </LinearLayout>
